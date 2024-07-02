@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://t2pj6u4ta8t0"]
+
+[ext_resource type="PackedScene" uid="uid://b071cj2ymv5xh" path="res://james.glb" id="1_r4f01"]
+[ext_resource type="Script" path="res://scripts/movimiento3d.gd" id="2_yrbwv"]
+
+[node name="james2" instance=ExtResource("1_r4f01")]
+
+[node name="james" parent="." index="0"]
+script = ExtResource("2_yrbwv")
